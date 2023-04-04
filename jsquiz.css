@@ -4,7 +4,7 @@ body {
 
 header {
     background-color: azure;
-    color: antiquewhite;
+    color: black;
     text-align: center;
     padding: 1px;
 }
@@ -18,9 +18,9 @@ h1 {
 }
 
 #start-screen button, #submit-score-btn {
-    background-color: azure;
+    background-color: white;
     border: none;
-    color: white;
+    color: black;
     padding: 1px;
     text-align: center;
     display: inline-block;
