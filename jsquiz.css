@@ -9,3 +9,24 @@ header {
     padding: 1px;
 }
 
+h1 {
+    margin 5px;
+}
+
+#start-screen, #end-screen {
+    text-align: center;
+}
+
+#start-screen button, #submit-score-btn {
+    background-color: azure;
+    border: none;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 1px;
+}
+
