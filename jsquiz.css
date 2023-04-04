@@ -10,7 +10,7 @@ header {
 }
 
 h1 {
-    margin 5px;
+    margin: 5px;
 }
 
 #start-screen, #end-screen {
@@ -28,5 +28,36 @@ h1 {
     display: inline-block;
     font-size: 18px;
     margin: 1px;
+}
+
+#start-screen button:hover, #submit-score-btn:hover {
+    opacity: .5px;
+}
+
+.hide {
+    display: none;
+}
+
+.timer {
+    text-align: right;
+    margin: 1px;
+}
+
+#question-container {
+    margin: 2px;
+    text-align: left;
+}
+
+#questions {
+    margin-bottom: 1px;
+}
+
+#choices li {
+    margin: 1px 1px 1px;
+    list-style: none;
+}
+
+#choices li:hover {
+    text-decoration: underline;
 }
 
