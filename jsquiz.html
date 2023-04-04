@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="jsquiz" href="jsquiz.css">
+</head>
+
+<body>
+    <header>
+    <h1>JavaScript Quiz</h1>
+    </header>
+    <main>
+        <section id="start-screen">
+            <h2>Test your JavaScript Knowledge!</h2>
+            <button id="start-btn">Start Quiz</button>
+        </section>
+
+        <section id="quiz-screen" class="hide">
+            <div id="timer">
+                <span id="time-left"></span>
+            </div>
+            <div id="question-container">
+                <h2 id="questions"></h2>
+                <ul id="choices"></ul>
+            </div>
+        </section>
+
+        <section id="end-screen" class="hide">
+            <h2>Quiz Over!</h2>
+            <p>Your Score: <span id="score"></span></p>
+        </section>
+        
+    </main>
+</body>
+</html>
